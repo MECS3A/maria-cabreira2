@@ -1,0 +1,25 @@
+body{
+    background-color: beige;
+    color:chocolate;
+    font-family: "Sofia", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 30px;
+}
+
+  button{
+    background-color:chocolate;
+    color: white;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 15px;
+  }
+
+  .passo{
+    display: none;
+  }
+
+  .passo.ativo {
+    display:block;
+  }
